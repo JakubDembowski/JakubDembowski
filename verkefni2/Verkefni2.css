@@ -1,0 +1,140 @@
+
+.plokkfiskur{
+    border: 10px green solid;
+    margin: 5px;
+    padding: 10px;
+    
+
+    
+}
+
+.border{
+    border: 5px red solid;
+    margin:50px;
+
+}
+
+.outerborder{
+    border: 10px green solid;
+    
+}
+
+.Quasimodo{
+    border: 10px blue dashed;
+    margin: 50px;
+    padding: 20px;
+}
+
+.AAAAA{
+    display: block;
+    border: 3px green dashed;
+    padding: 1em;
+    margin: 1em;
+}
+
+.AAA{
+    display: inline;
+    border: 3px blue dashed;
+    padding: 1em;
+    margin: 1em;
+}
+ 
+
+.paragraph{
+    float: left;
+    width: 50%;
+    border: 1px dotted red;
+}
+
+.play{
+    display: inline block;
+    border: 3px red dashed;
+    padding: 1em;
+    margin: 1em;
+
+
+}
+
+.clearfix{
+    overflow: auto;
+
+}
+
+.Classo{
+    display: inline flex;
+    
+
+
+}
+
+.bigL{
+    float:left;
+    font-size: 50px;       
+    padding: 5px;
+}
+
+
+
+.boxy{
+    float: left;
+    border: 2px black solid;
+    width: 50%;
+}
+
+
+.mynd{
+    width: 60%;
+    height: 85px;
+    float: right;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: em;
+     margin: 0 auto;
+    font-family: sans-serif;
+}
+    
+footer p {
+  text-align: center;
+}
+    
+.gulur {
+    background-color: yellow; 
+}
+.raudur {
+    background-color: red; 
+}
+.graenn {
+    background-color: lime;
+}
+.blar {
+    background-color: cyan; 
+}
+.box {
+    font-size: 1.2em;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.row{
+    display: flex;
+    flex-flow: row-reverse;
+    text-align: center
+    
+}
+
+.col{
+    display: flex;
+    flex-flow: column-reverse;
+    
+
+}
+div{
+    flex-grow: 1;
+}
