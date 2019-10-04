@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
 
 
 body{
@@ -27,7 +28,7 @@ body{
 }
 .vinstri{
     grid-area: vinstri;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Vollkorn', serif;
     font-size: 20px;
     overflow-block: auto;
     border: 20px solid  hsl(0, 100%, 35%);
@@ -36,7 +37,7 @@ body{
 .main{
     grid-area: midja;
     border: 1px solid hsl(210, 100%, 30%);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bree Serif', serif;
     font-size: 20px;
     background-color:hsl(0, 0%, 85%);
     padding-left: 2px;
@@ -45,7 +46,7 @@ body{
 }
 .haegri{
     grid-area: haegri;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Vollkorn', serif;
     font-size: 20px;
     background-color: hsl(0, 100%, 35%);
 }
