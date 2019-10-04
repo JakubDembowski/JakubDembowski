@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+
+.haus{
+    grid-area: haus;
+    border: 1px solid black;
+    font-family: 'Lora', serif;
+    font-size: 35px;
+}
+.valmynd{
+    grid-area: valmynd;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+}
+.vinstri{
+    grid-area: vinstri;
+    border: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+.main{
+    grid-area: midja;
+    border: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+.haegri{
+    grid-area: haegri;
+    border: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+.fotur{
+    grid-area: fotur;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+.georgia {
+    color: red;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-size: px;
+}
+
+.bordy{
+    border: 6px hsl(0,68%,55%) dotted;
+    margin:5px;
+    padding: 12px
+}
+
+.titil{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5px;
+    
+}
