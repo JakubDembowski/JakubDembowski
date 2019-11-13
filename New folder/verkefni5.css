@@ -1,0 +1,80 @@
+* { box-sizing: border-box }
+img {
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background: linear-gradient(to top left, #b7f8db 0%, #50a7c2 100%);
+
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.col-6 {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: lightgreen;
+        font-size: 12px;
+        padding: 5px 20px;
+}
+
+a:active{
+    color: blue;
+}
+a:hover{
+    color:gold;
+}
+a:visited{
+    text-decoration: underline;
+    color:blueviolet;
+}
+.oska{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.arrow{
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    border-radius: 45%;
+    background: lightgreen;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
