@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+
+
+.header{
+    grid-area: haus;
+    border: 1px dotted red;
+}
+.navbar{
+    grid-area: valmynd;
+    border: 1px dotted red;
+}
+.left{
+    grid-area: vinstri;
+    border: 1px dotted red;
+    font-family: 'Gupter', serif;
+    font-size: 20px;
+}
+.main{
+    grid-area: midja;
+    border: 1px dotted red;
+    font-family: 'Gupter', serif;
+    font-size: 20px;
+}
+.right{
+    grid-area: haegri;
+    border: 1px dotted red;
+    font-family: 'Gupter', serif;
+    font-size: 20px;
+}
+.footer{
+    grid-area: fotur;
+    border: 1px dotted red;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+@media screen and (min-width: 480px){
+    body{
+
+        background: rgb(160, 93, 216);
+        display: grid;
+        grid-template-areas:
+        "haus haus"
+        "vinstri instri"
+        "midja midja"
+        "haegri haegri"
+        "fotur fotur" 
+        "valmynd valmynd";
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
+@media screen and (min-width: 600px){
+    body{
+        background: yellowgreen;
+        display: grid;
+        grid-template-areas:
+        "haus haus haus haus"
+        "valmynd valmynd valmynd valmynd"
+        "haegri haegri vinstri vinstri"
+        "midja midja midja midja"
+        "fotur fotur fotur fotur"; 
+    }
+
+    img {
+        height: 400px;
+        width: 400px;
+    }
+    
+}
+
+@media screen and (min-width: 760px){
+    body{
+        background: cadetblue;
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri midja midja midja haegri "
+    "fotur fotur fotur fotur fotur"; 
+    }
+
+    img {
+        height: 500px;
+        width: 500px;
+    }
+    
+}
+
+
+/*
+
+body{
+    background: cadetblue;
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri midja midja midja haegri "
+    "fotur fotur fotur fotur fotur"; 
+
+/*
+    
